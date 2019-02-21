@@ -1,0 +1,27 @@
+nav a{
+    color: white;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: contain;
+    filter: grayscale(60%);
+}
+
+body{
+    background-color: gray;
+    color: white;
+}
+
+#carouselExampleFade{
+    position: relative;
+}
+
+#carouselExampleFade .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
